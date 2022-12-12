@@ -1,4 +1,4 @@
-uint64 timestamp                         # time since system start (nanoseconds)
+uint64 timestamp                         # time since system start (microseconds)
 
 int64 num_detected_gates                 # number of gates detected in the frame
 drone_racing_msgs/Gate[] detected_gates  # array of all the detected gates in the frame

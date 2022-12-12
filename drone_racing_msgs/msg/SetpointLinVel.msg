@@ -1,4 +1,4 @@
-uint64 timestamp  # time since system start (nanoseconds)
+uint64 timestamp  # time since system start (microseconds)
 
 float64 vx        # in meters/second
 float64 vy        # in meters/second
