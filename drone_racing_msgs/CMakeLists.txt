@@ -26,8 +26,13 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Gate.msg"
   "msg/GateList.msg"
-  "msg/LinVelSetpoint.msg"
-  "msg/CtbrSetpoint.msg"
+  "msg/SensorAccel.msg"
+  "msg/SensorGyro.msg"
+  "msg/SensorMag.msg"
+  "msg/SetpointCtbr.msg"
+  "msg/SetpointLinVel.msg"
+  "msg/SetpointMotorsThrust.msg"
+  "msg/VehicleAttitude.msg"
 )
 
 if(BUILD_TESTING)
