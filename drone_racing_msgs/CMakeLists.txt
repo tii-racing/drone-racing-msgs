@@ -32,7 +32,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SetpointCtbr.msg"
   "msg/SetpointLinVel.msg"
   "msg/SetpointMotorsThrust.msg"
-  "msg/VehicleAttitude.msg"
 )
 
 if(BUILD_TESTING)
