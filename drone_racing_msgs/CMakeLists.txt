@@ -26,6 +26,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Gate.msg"
   "msg/GateList.msg"
+  "msg/RGBImage.msg"
   "msg/SensorAccel.msg"
   "msg/SensorGyro.msg"
   "msg/SensorMag.msg"
