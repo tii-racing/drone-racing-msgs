@@ -1,0 +1,5 @@
+float32 center_x  # the orizontal coordinate of the object center (image frame)
+float32 center_y  # the vertical coordinate of the object center (image frame)
+float32 width     # the width of the object (image frame)
+float32 height    # the height of the object (image frame)
+string label      # the label of the object (image frame)
