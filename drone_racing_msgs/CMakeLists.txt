@@ -29,12 +29,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Detection.msg"
   "msg/DetectionList.msg"
   "msg/RGBImage.msg"
-  "msg/SensorAccel.msg"
-  "msg/SensorGyro.msg"
-  "msg/SensorMag.msg"
   "msg/SetpointCtbr.msg"
   "msg/SetpointLinVel.msg"
   "msg/SetpointMotorsThrust.msg"
+  "msg/SensorImu.msg"
 )
 
 if(BUILD_TESTING)
