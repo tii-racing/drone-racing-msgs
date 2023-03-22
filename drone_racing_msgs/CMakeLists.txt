@@ -24,15 +24,14 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Gate.msg"
-  "msg/GateList.msg"
   "msg/Detection.msg"
   "msg/DetectionList.msg"
   "msg/RGBImage.msg"
+  "msg/SensorImu.msg"
+  "msg/SensorMag.msg"
   "msg/SetpointCtbr.msg"
   "msg/SetpointLinVel.msg"
   "msg/SetpointMotorsThrust.msg"
-  "msg/SensorImu.msg"
 )
 
 if(BUILD_TESTING)
