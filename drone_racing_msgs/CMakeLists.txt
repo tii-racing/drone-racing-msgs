@@ -32,6 +32,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SetpointCtbr.msg"
   "msg/SetpointLinVel.msg"
   "msg/SetpointMotorsThrust.msg"
+  "msg/QualisysMeasure.msg"
 )
 
 if(BUILD_TESTING)
