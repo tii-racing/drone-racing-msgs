@@ -13,9 +13,9 @@ uint8 ACCELERATION=2
 uint8 JERK=3
 uint8 SNAP=4
 
-Header header
+std_msgs/Header header
 
 # Trajectory type as defined above
 uint8 type
 
-quadrotor_msgs/TrajectoryPoint[] points
+drone_racing_msgs/TrajectoryPoint[] points
