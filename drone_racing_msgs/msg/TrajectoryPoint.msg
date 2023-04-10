@@ -6,6 +6,8 @@ geometry_msgs/Twist velocity
 
 geometry_msgs/Twist acceleration
 
+geometry_msgs/Twist jerk
+
 # Heading angle with respect to world frame [rad]
 float64 heading
 
