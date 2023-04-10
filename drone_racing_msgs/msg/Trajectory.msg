@@ -18,4 +18,4 @@ std_msgs/Header header
 # Trajectory type as defined above
 uint8 type
 
-drone_racing_msgs/TrajectoryPoint[] points
+drone_racing_msgs/SetpointReference[] points
