@@ -1,4 +1,4 @@
-builtin_interfaces/Duration time_from_start
+float64 time_from_start
 
 geometry_msgs/Pose pose
 
