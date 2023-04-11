@@ -1,4 +1,4 @@
-float64 time_from_start
+uint64 time_from_start_us
 
 geometry_msgs/Pose pose
 
