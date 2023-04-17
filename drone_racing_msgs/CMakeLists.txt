@@ -39,6 +39,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Trajectory.msg"
   "msg/SetpointReference.msg"
   "msg/RcChannels.msg"
+  "msg/ControlCommand.msg"
 	DEPENDENCIES std_msgs geometry_msgs builtin_interfaces
 )
 
