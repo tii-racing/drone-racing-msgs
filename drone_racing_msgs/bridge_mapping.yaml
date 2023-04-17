@@ -1,0 +1,3 @@
+- 
+  ros1_package_name: "quadrotor_msgs"
+  ros2_package_name: "drone_racing_msgs"

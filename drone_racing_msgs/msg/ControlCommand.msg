@@ -1,6 +1,4 @@
 #include "std_msgs/msg/Time"
-# Quadrotor control command
-
 # control mode enums
 uint8 NONE=0
 uint8 ATTITUDE=1
