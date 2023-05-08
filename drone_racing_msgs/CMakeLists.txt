@@ -38,6 +38,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SetpointReference.msg"
   "msg/RcChannels.msg"
   "msg/State.msg"
+  "msg/EulerAngles.msg"
 	DEPENDENCIES geometry_msgs
 )
 
