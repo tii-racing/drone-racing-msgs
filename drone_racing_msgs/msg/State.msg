@@ -1,3 +1,3 @@
 uint64 timestamp  # time since system start (microseconds)
-
-drone_racing_msgs/SetpointReference[] points
+geometry_msgs/Pose pose
+geometry_msgs/Twist velocity
