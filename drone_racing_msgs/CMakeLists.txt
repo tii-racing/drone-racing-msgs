@@ -38,6 +38,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SetpointMotorsThrust.msg"
   "msg/Trajectory.msg"
   "msg/SetpointReference.msg"
+  "msg/QualisysMeasure.msg"
   "msg/RcChannels.msg"
   "msg/State.msg"
   "msg/EulerAngles.msg"
