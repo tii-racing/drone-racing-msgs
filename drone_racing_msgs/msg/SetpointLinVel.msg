@@ -1,6 +1,9 @@
-uint64 timestamp  # time since system start (microseconds)
+# MSG used in betaflight_offboard, px4_offboard, drone_controllers, ros2csv and training_pipeline
+# World frame set with the respect of the initial drone position: +X Forward / +Y Left / +Z Up
 
-float64 vx        # in meters/second
-float64 vy        # in meters/second
-float64 vz        # in meters/second
-float64 yaw_rate  # angular velocity around NED frame z-axis in radians/second
+uint64 timestamp  # [μs] time since system start
+
+float32 vx        # [m/s]
+float32 vy        # [m/s]
+float32 vz        # [m/s]
+float32 yaw_rate  # [rad/s] angular velocity around ENU frame z-axis (positive counter-clockwise)

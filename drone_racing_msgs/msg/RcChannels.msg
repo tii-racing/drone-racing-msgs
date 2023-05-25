@@ -1,3 +1,5 @@
-uint64 timestamp  # time since system start (microseconds)
+# MSG used in betaflight_offboard
+# World frame set with the respect of the initial drone position: +X Forward / +Y Left / +Z Up
 
-uint16[8] channels  # roll, pitch, yaw, thrust, aux1, aux2, aux3, aux4 [1000, 2000]
+uint64 timestamp	# [μs] time since system start
+uint16[8] channels	# roll, pitch, yaw, thrust, aux1, aux2, aux3, aux4 [1000, 2000]

@@ -1,3 +1,6 @@
-uint64 timestamp  # time since system start (microseconds)
+# MSG used in drone_controllers and trajectory_parser
+# World frame set with the respect of the initial drone position: +X Forward / +Y Left / +Z Up
+
+uint64 timestamp	# [μs] time since system start
 
 drone_racing_msgs/SetpointReference[] points

@@ -1,4 +1,7 @@
-uint64 timestamp  # time since system start (microseconds)
-float64 roll      # [rad/s]
-float64 pitch     # [rad/s]
-float64 yaw       # [rad/s]
+# MSG used in drone_plots for rViz plots
+# World frame set with the respect of the initial drone position: +X Forward / +Y Left / +Z Up
+
+uint64 timestamp  # [μs] time since system start
+float32 roll      # [rad/s]
+float32 pitch     # [rad/s]
+float32 yaw       # [rad/s]

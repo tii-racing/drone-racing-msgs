@@ -1,15 +1,12 @@
-uint64 time_from_start_us
+# MSG used in drone_controllers, drone_plots, trajectory_parser, drone_racer and px4_offboard
+# World frame set with the respect of the initial drone position: +X Forward / +Y Left / +Z Up
+
+uint64 timestamp # [μs] time since system start
 
 geometry_msgs/Pose pose
-
 geometry_msgs/Twist velocity
-
 geometry_msgs/Twist acceleration
+geometry_msgs/Twist jerk 
 
-geometry_msgs/Twist jerk
-
-# Heading angle with respect to world frame [rad]
-float64 heading
-
-# First derivative of the heading angle [rad/s]
-float64 heading_rate
+float32 heading	# [rad] Heading angle with respect to world frame
+float32 heading_rate # [rad/s] First derivative of the heading angle
