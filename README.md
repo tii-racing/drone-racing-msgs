@@ -2,10 +2,6 @@
 
 This package contains the ROS2 interfaces definitions of the Drone Racing stack. Building this package generates all the required ROS2 custom messages.
 
-# Requirements
-
-To compile `drone-racing-msgs` you need to have installed `ament_cmake`, `rosidl_default_generators`, and `geometry_msgs`, typically installed with ROS2 setup.
-
 # Messages
 
 | Message Name | Category | Description |
@@ -21,3 +17,7 @@ To compile `drone-racing-msgs` you need to have installed `ament_cmake`, `rosidl
 | SetpointLinVel | Setpoint | Linear `velocities` and `yaw_rate` of the setpoint |
 | SetpointReference | Setpoint | Reference position and heading. For control purposes. Including derivatives |
 | Trajectory | Setpoint | Array of SetpointReference |
+
+## Requirements
+- [`rosidl_default_generators`](https://index.ros.org/p/rosidl_default_generators/github-ros2-rosidl_defaults#humble)
+- [`geometry_msgs`](https://index.ros.org/p/geometry_msgs/github-ros2-common_interfaces/#humble)
