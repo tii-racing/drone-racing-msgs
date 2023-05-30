@@ -22,8 +22,8 @@ int32 y4
 ## OBJECT POSE WITH RESPECT TO THE CAMERA
 # They are empty if object dimensions are not known in advance
 
-float32[] rotation # [rad] [x,y,z] rotation of the detected gate with respect to the camera
-float32[] translation # [m] [x,y,z] translation of the detected gate with respect to the camera
+float32[3] rotation # [rad] [x,y,z] rotation of the detected gate with respect to the camera
+float32[3] translation # [m] [x,y,z] translation of the detected gate with respect to the camera
 
 
 ## CENTER
