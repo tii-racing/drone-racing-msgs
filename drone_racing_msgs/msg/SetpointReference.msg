@@ -1,4 +1,4 @@
-# MSG used in drone_controllers, drone_plots, trajectory_parser, drone_racer and px4_offboard
+# MSG used in drone_controllers, drone_plots, trajectory, drone_racer and px4_offboard
 # World frame set with the respect of the initial drone position: +X Forward / +Y Left / +Z Up
 
 uint64 timestamp  # [μs] time since system start
