@@ -13,7 +13,7 @@ This package contains the ROS2 interfaces definitions of the Drone Racing stack.
 | RcChannels | Actuators | `roll`, `pitch`, `yaw`, `thrust`, `aux1`, `aux2`, `aux3`, `aux4` for BetaFlight |
 | SensorImu | Sensors | IMU `accelerometer` and `gyroscope` data |
 | SensorMag | Sensors | Magnetometer data |
-| SetpointCtbr | Setpoint | CTBR `roll`, `pitch`, `yaw` and `thrust` of the setpoint |
+| SetpointCtbr | Setpoint | CTBR `roll`, `pitch`, `thrust` and `yaw` (AETR) of the setpoint |
 | SetpointLinVel | Setpoint | Linear `velocities` and `yaw_rate` of the setpoint |
 | SetpointReference | Setpoint | Reference position and heading. For control purposes. Including derivatives |
 | SetpointMotorsThrust | Setpoint | Single rotor thrust feedback |
