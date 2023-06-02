@@ -23,17 +23,21 @@ find_package(geometry_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/GatePose.msg"
   "msg/GatePoseList.msg"
+
+  "msg/DroneState.msg"
   "msg/SensorImu.msg"
   "msg/SensorMag.msg"
+
+  "msg/SetpointMotorsThrust.msg"
   "msg/SetpointCtbr.msg"
   "msg/SetpointLinVel.msg"
-  "msg/SetpointMotorsThrust.msg"
-  "msg/Trajectory.msg"
   "msg/SetpointReference.msg"
+  "msg/Trajectory.msg"
+
   "msg/RcChannels.msg"
-  "msg/DroneState.msg"
   "msg/EulerAngles.msg"
-	DEPENDENCIES geometry_msgs
+
+  DEPENDENCIES geometry_msgs
 )
 
 if(BUILD_TESTING)

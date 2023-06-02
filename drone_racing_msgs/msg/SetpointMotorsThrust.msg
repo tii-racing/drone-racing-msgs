@@ -1,4 +1,3 @@
-# MSG used in betaflight_offboard, px4_offboard and ros2csv
 # World frame set with the respect of the initial drone position: +X Forward / +Y Left / +Z Up
 
 uint64 timestamp  # [μs] time since system start
