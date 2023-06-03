@@ -14,6 +14,7 @@ This package contains the ROS2 interfaces definitions of the Drone Racing stack.
 | EulerAngles | Visualization | `roll`, `pitch` and `yaw` for rViz plots |
 | GatePose | Detection | Information about the detected gate by Yolo (detection, corners, and pose) |
 | GatePoseList | Detection | Array of GatePose |
+| Maneuver | Command | Motion primitive request or completion feedback |
 | RcChannels | Actuators | `roll`, `pitch`, `thrust`, `yaw`, `aux1`, `aux2`, `aux3`, `aux4` for BetaFlight |
 | SensorImu | Sensors | IMU `accelerometer` and `gyroscope` data |
 | SensorMag | Sensors | Magnetometer data |

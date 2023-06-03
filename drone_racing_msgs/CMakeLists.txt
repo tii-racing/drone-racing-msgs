@@ -33,6 +33,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SetpointLinVel.msg"
   "msg/SetpointReference.msg"
   "msg/Trajectory.msg"
+  "msg/Maneuver.msg"
 
   "msg/RcChannels.msg"
   "msg/EulerAngles.msg"
