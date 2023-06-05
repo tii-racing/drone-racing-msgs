@@ -1,5 +1,7 @@
-uint64 timestamp  # time since system start (microseconds)
+# World frame set with the respect of the initial drone position: +X Forward / +Y Left / +Z Up
 
-float32 x         # magnetic field in the FRD board frame X-axis in Gauss
-float32 y         # magnetic field in the FRD board frame Y-axis in Gauss
-float32 z         # magnetic field in the FRD board frame Z-axis in Gauss
+uint64 timestamp  # [μs] time since system start
+
+float32 x         # [gauss] magnetic field in the ENU board frame X-axis
+float32 y         # [gauss] magnetic field in the ENU board frame Y-axis
+float32 z         # [gauss] magnetic field in the ENU board frame Z-axis

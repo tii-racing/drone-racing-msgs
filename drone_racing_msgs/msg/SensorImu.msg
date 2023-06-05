@@ -1,9 +1,11 @@
-uint64 timestamp  # time since system start (microseconds)
+# World frame set with the respect of the initial drone position: +X Forward / +Y Left / +Z Up
 
-float32 accel_x         # acceleration in the FRD board frame X-axis in m/s^2
-float32 accel_y         # acceleration in the FRD board frame Y-axis in m/s^2
-float32 accel_z         # acceleration in the FRD board frame Z-axis in m/s^2
+uint64 timestamp  # [μs] time since system start
 
-float32 gyro_x         # angular velocity in the FRD board frame X-axis in rad/s
-float32 gyro_y         # angular velocity in the FRD board frame Y-axis in rad/s
-float32 gyro_z         # angular velocity in the FRD board frame Z-axis in rad/s
+float32 accel_x   # [m/s^2] acceleration in the ENU board frame X-axis
+float32 accel_y   # [m/s^2] acceleration in the ENU board frame Y-axis
+float32 accel_z   # [m/s^2] acceleration in the ENU board frame Z-axis
+
+float32 gyro_x    # [rad/s] angular velocity in the ENU board frame X-axis 
+float32 gyro_y    # [rad/s] angular velocity in the ENU board frame Y-axis
+float32 gyro_z    # [rad/s] angular velocity in the ENU board frame Z-axis

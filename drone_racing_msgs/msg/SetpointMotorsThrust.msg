@@ -1,4 +1,6 @@
-uint64 timestamp  # time since system start (microseconds)
+# World frame set with the respect of the initial drone position: +X Forward / +Y Left / +Z Up
 
-float64[4] thrust # thrusts for each rotor
+uint64 timestamp  # [μs] time since system start
+
+float32[4] thrust # thrusts for each rotor
                   # range: [0, 1], where 1 means maximum positive thrust

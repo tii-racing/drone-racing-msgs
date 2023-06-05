@@ -7,6 +7,8 @@
   <maintainer email="michael.bosello@tii.ae">Michael Bosello</maintainer>
   <license>MIT</license>
 
+  <depend>geometry_msgs</depend>
+  
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <build_depend>rosidl_default_generators</build_depend>

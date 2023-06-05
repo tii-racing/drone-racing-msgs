@@ -1,6 +1,8 @@
-uint64 timestamp                         # time since system start (microseconds)
+# World frame set with the respect of the initial drone position: +X Forward / +Y Left / +Z Up
 
-int64 num_detections                 # number of objects detected in the frame
-drone_racing_msgs/GatePose[] gates_poses  # array of all the detected objects in the frame
-int64 image_width
-int64 image_height
+uint64 timestamp     # [μs] time since system start
+int32 num_detections # number of objects detected in the frame
+
+drone_racing_msgs/GatePose[] gates_poses # array of all the detected objects in the frame
+uint32 image_width   # [px]
+uint32 image_height  # [px]
