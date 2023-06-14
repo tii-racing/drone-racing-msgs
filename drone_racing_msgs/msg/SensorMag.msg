@@ -2,6 +2,6 @@
 
 uint64 timestamp  # [μs] time since system start
 
-float32 x         # [gauss] magnetic field in the ENU board frame X-axis
-float32 y         # [gauss] magnetic field in the ENU board frame Y-axis
-float32 z         # [gauss] magnetic field in the ENU board frame Z-axis
+float32 x         # [μTesla] magnetic field in the ENU board frame X-axis
+float32 y         # [μTesla] magnetic field in the ENU board frame Y-axis
+float32 z         # [μTesla] magnetic field in the ENU board frame Z-axis
