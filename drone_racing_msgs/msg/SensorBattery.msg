@@ -3,4 +3,4 @@
 uint64 timestamp    # [μs] time since system start
 
 float32 vbat        # [V] total voltage of the battery
-float32 amperage    # [A] current in ampere drawn
+float32 mah         # [mAh] drawn milli ampere hours
