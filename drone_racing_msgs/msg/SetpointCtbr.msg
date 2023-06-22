@@ -5,4 +5,4 @@ uint64 timestamp  # [μs] time since system start
 float32 roll      # [rad/s]
 float32 pitch     # [rad/s]
 float32 yaw       # [rad/s]
-float32 thrust    # [N]
+float32 norm_thrust    # [N]
