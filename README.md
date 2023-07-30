@@ -19,7 +19,7 @@ This package contains the ROS2 interfaces definitions of the Drone Racing stack.
 | SensorImu | Sensors | IMU `accelerometer` and `gyroscope` data |
 | SensorMag | Sensors | Magnetometer data |
 | SensorBattery | Sensors | Battery `voltage` and the `current` drawn |
-| SetpointCtbr | Setpoint | CTBR `roll`, `pitch`, `thrust` and `yaw` (AETR) of the setpoint |
+| SetpointCtbr | Setpoint | CTBR `roll`, `pitch`, `norm_thrust` and `yaw` (AETR) of the setpoint |
 | SetpointLinVel | Setpoint | Linear `velocities` and `yaw_rate` of the setpoint |
 | SetpointReference | Setpoint | Reference position and heading. For control purposes. Including derivatives |
 | SetpointMotorsThrust | Setpoint | Single rotor thrust command or feedback |
