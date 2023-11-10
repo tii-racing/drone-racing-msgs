@@ -1,7 +1,5 @@
 # drone-racing-msgs
 
-This repo is part of the [Drone Racing](https://github.com/Drone-Racing/drone-racing) project. See the wiki on the main repo for installation/usage/examples.
-
 ## Description
 
 This package contains the ROS2 interfaces definitions of the Drone Racing stack. Building this package generates all the required ROS2 custom messages.
