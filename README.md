@@ -9,6 +9,7 @@ This package contains the ROS2 interfaces definitions of the Drone Racing stack.
 | Message Name | Category | Description |
 |:---:|:---:|---|
 | DroneState | State | `Pose` and `Twist` of the drone |
+| DroneStateImage | State/Image | Synchronized `DroneState` and camera `Image` |
 | EulerAngles | Visualization | `roll`, `pitch` and `yaw` for rViz plots |
 | GatePose | Detection | Information about the detected gate by Yolo (detection, corners, and pose) |
 | GatePoseList | Detection | Array of GatePose |
@@ -26,3 +27,4 @@ This package contains the ROS2 interfaces definitions of the Drone Racing stack.
 ## Requirements
 - [`rosidl_default_generators`](https://index.ros.org/p/rosidl_default_generators/github-ros2-rosidl_defaults#humble)
 - [`geometry_msgs`](https://index.ros.org/p/geometry_msgs/github-ros2-common_interfaces/#humble)
+- [`sensor_msgs`](https://index.ros.org/p/sensor_msgs/github-ros2-common_interfaces/#humble)
