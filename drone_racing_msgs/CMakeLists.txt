@@ -29,6 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DroneStateImage.msg"
   "msg/SensorImu.msg"
   "msg/SensorMag.msg"
+  "msg/SensorRpm.msg"
   "msg/SensorBattery.msg"
   
   "msg/SetpointMotorsThrust.msg"
