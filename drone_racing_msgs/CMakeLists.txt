@@ -24,6 +24,7 @@ find_package(sensor_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/GatePose.msg"
   "msg/GatePoseList.msg"
+  "msg/GateCenters.msg"
 
   "msg/DroneState.msg"
   "msg/DroneStateImage.msg"
